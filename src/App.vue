@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    邓傲剑笔记本
+    <div class="fsaf">
+      <div class="title">邓傲剑笔记本</div>
+    </div>
+    <div class="abc">
+      fdsafsda
+    </div>
+
     <router-view/>
   </div>
 </template>
@@ -11,7 +17,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="stylus">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,4 +26,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.fsaf
+  .title
+    color red
 </style>
