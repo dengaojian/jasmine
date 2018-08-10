@@ -29,4 +29,5 @@ export default {
 .fsaf
   .title
     color red
+    box-sizing: border-box;
 </style>

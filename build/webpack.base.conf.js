@@ -62,11 +62,11 @@ module.exports = {
       },
       {
         test: /\.(scss|less)(\?.*)$/,
-        loaders: ["style", "css", "sass","less","postcss"]
+        loaders: ["style", "css", "sass","less"]
       },
       {
         test: /\.styl$/,
-        loader: 'style-loader!css-loader!stylus-loader!postcss-loader'
+        loader: 'style-loader!css-loader!stylus-loader'
       },
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
