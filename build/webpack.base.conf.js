@@ -66,7 +66,7 @@ module.exports = {
       },
       {
         test: /\.styl$/,
-        loader: 'style-loader!css-loader!stylus-loader'
+        loader: 'style-loader!css-loader!stylus-loader!postcss-loader'
       },
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
