@@ -62,7 +62,7 @@ module.exports = {
       },
       {
         test: /\.(scss|less)(\?.*)$/,
-        loaders: ["style", "css", "sass","less"]
+        loaders: ["style", "css", "sass","less","postcss"]
       },
       {
         test: /\.styl$/,
